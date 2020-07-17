@@ -1,10 +1,11 @@
 Win64
 PlayerPath?
-C:/Users/Alext/AppData/Local/Temp/DefaultCompany/VR-Chat_World/customscene2.vrcw
+C:/Users/maxid/AppData/Local/Temp/DefaultCompany/VR-Chat_World/customscene2.vrcw
 SceneListBegin?
 Assets/Scenes/SampleScene.unity
 SceneListEnd?
 bad0f5a58d4b55ed1442379677ba2587 VRC.Udon.dll:VRC.Udon.ProgramSources.SerializedUdonProgramAsset
+a77f31e936ed0bf8cd62853681764e6a VRCSDK3.dll:VRC.SDK3.Components.VRCAvatarPedestal
 639cb0498f96640b4b667b4129295ba3 VRCSDK3.dll:VRC.SDK3.Components.VRCMirrorReflection
 3614bae5f2ee7232eea55e930d1eb42d VRCSDK3.dll:VRC.SDK3.Components.VRCPickup
 10480eec36be4b6bdd6d8cc2b035dc73 VRCSDK3.dll:VRC.SDK3.Components.VRCSceneDescriptor
