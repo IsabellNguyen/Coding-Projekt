@@ -1,0 +1,457 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
+  m_Name: Button_toggle
+  m_EditorClassIdentifier: 
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 73cfb7955f40a8f40b973c34892c5664,
+    type: 2}
+  udonAssembly: ".data_start\n\n    .export test\n\n    __refl_const_intnl_udonTypeID:
+    %SystemInt64, null\n    __refl_const_intnl_udonTypeName: %SystemString, null\n
+    \   test: %UnityEngineGameObject, null\n    __0_const_intnl_SystemUInt32: %SystemUInt32,
+    null\n    __0_intnl_SystemBoolean: %SystemBoolean, null\n    __1_intnl_SystemBoolean:
+    %SystemBoolean, null\n    __0_intnl_returnTarget_UInt32: %SystemUInt32, null\n\n.data_end\n\n
+    \       \n         # using UdonSharp;\n        \n         # using UnityEngine;\n
+    \       \n         # using VRC.SDKBase;\n        \n         # using VRC.Udon;\n
+    \       \n         # using UnityEngine.UI;\n        \n         # using System.Collections;\n
+    \       \n         # using System.Collections.Generic;\n        \n         # public
+    class Button_toggle : UdonSharpBehaviour\n.code_start\n        \n         # public
+    GameObject test;\n        \n         # void Interact()\n    .export _interact\n
+    \       \n    _interact:\n        \n        PUSH, __0_const_intnl_SystemUInt32\n
+    \       \n         # {\n        \n         # test.SetActive(!test.activeInHierarchy);\n
+    \       PUSH, test\n        PUSH, __0_intnl_SystemBoolean\n        EXTERN, \"UnityEngineGameObject.__get_activeInHierarchy__SystemBoolean\"\n
+    \       PUSH, __0_intnl_SystemBoolean\n        PUSH, __1_intnl_SystemBoolean\n
+    \       EXTERN, \"SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean\"\n
+    \       PUSH, test\n        PUSH, __1_intnl_SystemBoolean\n        EXTERN, \"UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid\"\n
+    \       PUSH, __0_intnl_returnTarget_UInt32 #Function epilogue\n        COPY\n
+    \       JUMP_INDIRECT, __0_intnl_returnTarget_UInt32\n        \n.code_end\n"
+  assemblyError: 
+  sourceCsScript: {fileID: 11500000, guid: 56f4879ae29dd814ba62efba83b4c522, type: 3}
+  behaviourIDHeapVarName: __refl_const_intnl_udonTypeID
+  compileErrors: []
+  debugInfo:
+    serializedDebugSpans:
+    - startInstruction: 0
+      endInstruction: -1
+      startSourceChar: 0
+      endSourceChar: 2
+      line: 0
+      lineChar: 0
+      spanCodeSection: "\r\n"
+    - startInstruction: 0
+      endInstruction: -1
+      startSourceChar: 2
+      endSourceChar: 2
+      line: 1
+      lineChar: 0
+      spanCodeSection: 
+    - startInstruction: 0
+      endInstruction: -1
+      startSourceChar: 2
+      endSourceChar: 8
+      line: 1
+      lineChar: 0
+      spanCodeSection: 'using '
+    - startInstruction: 0
+      endInstruction: -1
+      startSourceChar: 8
+      endSourceChar: 20
+      line: 1
+      lineChar: 6
+      spanCodeSection: "UdonSharp;\r\n"
+    - startInstruction: 0
+      endInstruction: -1
+      startSourceChar: 20
+      endSourceChar: 26
+      line: 2
+      lineChar: 0
+      spanCodeSection: 'using '
+    - startInstruction: 0
+      endInstruction: -1
+      startSourceChar: 26
+      endSourceChar: 40
+      line: 2
+      lineChar: 6
+      spanCodeSection: "UnityEngine;\r\n"
+    - startInstruction: 0
+      endInstruction: -1
+      startSourceChar: 40
+      endSourceChar: 46
+      line: 3
+      lineChar: 0
+      spanCodeSection: 'using '
+    - startInstruction: 0
+      endInstruction: -1
+      startSourceChar: 46
+      endSourceChar: 46
+      line: 3
+      lineChar: 6
+      spanCodeSection: 
+    - startInstruction: 0
+      endInstruction: -1
+      startSourceChar: 46
+      endSourceChar: 50
+      line: 3
+      lineChar: 6
+      spanCodeSection: VRC.
+    - startInstruction: 0
+      endInstruction: -1
+      startSourceChar: 50
+      endSourceChar: 60
+      line: 3
+      lineChar: 10
+      spanCodeSection: "SDKBase;\r\n"
+    - startInstruction: 0
+      endInstruction: -1
+      startSourceChar: 60
+      endSourceChar: 66
+      line: 4
+      lineChar: 0
+      spanCodeSection: 'using '
+    - startInstruction: 0
+      endInstruction: -1
+      startSourceChar: 66
+      endSourceChar: 66
+      line: 4
+      lineChar: 6
+      spanCodeSection: 
+    - startInstruction: 0
+      endInstruction: -1
+      startSourceChar: 66
+      endSourceChar: 70
+      line: 4
+      lineChar: 6
+      spanCodeSection: VRC.
+    - startInstruction: 0
+      endInstruction: -1
+      startSourceChar: 70
+      endSourceChar: 77
+      line: 4
+      lineChar: 10
+      spanCodeSection: "Udon;\r\n"
+    - startInstruction: 0
+      endInstruction: -1
+      startSourceChar: 77
+      endSourceChar: 83
+      line: 5
+      lineChar: 0
+      spanCodeSection: 'using '
+    - startInstruction: 0
+      endInstruction: -1
+      startSourceChar: 83
+      endSourceChar: 83
+      line: 5
+      lineChar: 6
+      spanCodeSection: 
+    - startInstruction: 0
+      endInstruction: -1
+      startSourceChar: 83
+      endSourceChar: 95
+      line: 5
+      lineChar: 6
+      spanCodeSection: UnityEngine.
+    - startInstruction: 0
+      endInstruction: -1
+      startSourceChar: 95
+      endSourceChar: 100
+      line: 5
+      lineChar: 18
+      spanCodeSection: "UI;\r\n"
+    - startInstruction: 0
+      endInstruction: -1
+      startSourceChar: 100
+      endSourceChar: 106
+      line: 6
+      lineChar: 0
+      spanCodeSection: 'using '
+    - startInstruction: 0
+      endInstruction: -1
+      startSourceChar: 106
+      endSourceChar: 106
+      line: 6
+      lineChar: 6
+      spanCodeSection: 
+    - startInstruction: 0
+      endInstruction: -1
+      startSourceChar: 106
+      endSourceChar: 113
+      line: 6
+      lineChar: 6
+      spanCodeSection: System.
+    - startInstruction: 0
+      endInstruction: -1
+      startSourceChar: 113
+      endSourceChar: 127
+      line: 6
+      lineChar: 13
+      spanCodeSection: "Collections;\r\n"
+    - startInstruction: 0
+      endInstruction: -1
+      startSourceChar: 127
+      endSourceChar: 133
+      line: 7
+      lineChar: 0
+      spanCodeSection: 'using '
+    - startInstruction: 0
+      endInstruction: -1
+      startSourceChar: 133
+      endSourceChar: 133
+      line: 7
+      lineChar: 6
+      spanCodeSection: 
+    - startInstruction: 0
+      endInstruction: -1
+      startSourceChar: 133
+      endSourceChar: 133
+      line: 7
+      lineChar: 6
+      spanCodeSection: 
+    - startInstruction: 0
+      endInstruction: -1
+      startSourceChar: 133
+      endSourceChar: 140
+      line: 7
+      lineChar: 6
+      spanCodeSection: System.
+    - startInstruction: 0
+      endInstruction: -1
+      startSourceChar: 140
+      endSourceChar: 152
+      line: 7
+      lineChar: 13
+      spanCodeSection: Collections.
+    - startInstruction: 0
+      endInstruction: -1
+      startSourceChar: 152
+      endSourceChar: 164
+      line: 7
+      lineChar: 25
+      spanCodeSection: "Generic;\r\n\r\n"
+    - startInstruction: 0
+      endInstruction: -1
+      startSourceChar: 164
+      endSourceChar: 191
+      line: 9
+      lineChar: 0
+      spanCodeSection: 'public class Button_toggle '
+    - startInstruction: 0
+      endInstruction: -1
+      startSourceChar: 191
+      endSourceChar: 193
+      line: 9
+      lineChar: 27
+      spanCodeSection: ': '
+    - startInstruction: 0
+      endInstruction: -1
+      startSourceChar: 193
+      endSourceChar: 193
+      line: 9
+      lineChar: 29
+      spanCodeSection: 
+    - startInstruction: 0
+      endInstruction: -1
+      startSourceChar: 193
+      endSourceChar: 220
+      line: 9
+      lineChar: 29
+      spanCodeSection: "UdonSharpBehaviour\r\n{\r\n    "
+    - startInstruction: 0
+      endInstruction: -1
+      startSourceChar: 220
+      endSourceChar: 227
+      line: 11
+      lineChar: 4
+      spanCodeSection: 'public '
+    - startInstruction: 0
+      endInstruction: -1
+      startSourceChar: 227
+      endSourceChar: 227
+      line: 11
+      lineChar: 11
+      spanCodeSection: 
+    - startInstruction: 0
+      endInstruction: -1
+      startSourceChar: 227
+      endSourceChar: 255
+      line: 11
+      lineChar: 11
+      spanCodeSection: "GameObject test;\r\n    \r\n    "
+    - startInstruction: 0
+      endInstruction: 7
+      startSourceChar: 255
+      endSourceChar: 276
+      line: 13
+      lineChar: 4
+      spanCodeSection: "void Interact()\r\n    "
+    - startInstruction: 8
+      endInstruction: 7
+      startSourceChar: 276
+      endSourceChar: 343
+      line: 14
+      lineChar: 4
+      spanCodeSection: "{\r\n       \r\n        //test.SetActive(!test.activeSelf);\r\n\r\n
+        \       "
+    - startInstruction: 8
+      endInstruction: 7
+      startSourceChar: 343
+      endSourceChar: 343
+      line: 18
+      lineChar: 8
+      spanCodeSection: 
+    - startInstruction: 8
+      endInstruction: 7
+      startSourceChar: 343
+      endSourceChar: 343
+      line: 18
+      lineChar: 8
+      spanCodeSection: 
+    - startInstruction: 8
+      endInstruction: 7
+      startSourceChar: 343
+      endSourceChar: 343
+      line: 18
+      lineChar: 8
+      spanCodeSection: 
+    - startInstruction: 8
+      endInstruction: 7
+      startSourceChar: 343
+      endSourceChar: 348
+      line: 18
+      lineChar: 8
+      spanCodeSection: test.
+    - startInstruction: 8
+      endInstruction: 7
+      startSourceChar: 348
+      endSourceChar: 358
+      line: 18
+      lineChar: 13
+      spanCodeSection: SetActive(
+    - startInstruction: 8
+      endInstruction: 7
+      startSourceChar: 358
+      endSourceChar: 359
+      line: 18
+      lineChar: 23
+      spanCodeSection: '!'
+    - startInstruction: 8
+      endInstruction: 7
+      startSourceChar: 359
+      endSourceChar: 359
+      line: 18
+      lineChar: 24
+      spanCodeSection: 
+    - startInstruction: 8
+      endInstruction: 7
+      startSourceChar: 359
+      endSourceChar: 364
+      line: 18
+      lineChar: 24
+      spanCodeSection: test.
+    - startInstruction: 8
+      endInstruction: 8
+      startSourceChar: 364
+      endSourceChar: 364
+      line: 18
+      lineChar: 29
+      spanCodeSection: 
+  hasInteractEvent: 1
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: fieldDefinitions
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[UdonSharp.FieldDefinition,
+        UdonSharp.Editor]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: test
+    - Name: $v
+      Entry: 7
+      Data: 2|UdonSharp.FieldDefinition, UdonSharp.Editor
+    - Name: fieldSymbol
+      Entry: 7
+      Data: 3|UdonSharp.SymbolDefinition, UdonSharp.Editor
+    - Name: internalType
+      Entry: 7
+      Data: 4|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: UnityEngine.GameObject, UnityEngine.CoreModule
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: declarationType
+      Entry: 3
+      Data: 1
+    - Name: syncMode
+      Entry: 3
+      Data: 0
+    - Name: symbolResolvedTypeName
+      Entry: 1
+      Data: UnityEngineGameObject
+    - Name: symbolOriginalName
+      Entry: 1
+      Data: test
+    - Name: symbolUniqueName
+      Entry: 1
+      Data: test
+    - Name: symbolDefaultValue
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: fieldAttributes
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[System.Attribute, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: userBehaviourSource
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
