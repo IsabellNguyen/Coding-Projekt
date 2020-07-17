@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-C:/Users/Alext/AppData/Local/Temp/DefaultCompany/VR-Chat World/customscene2.vrcw
+C:/Users/maxid/AppData/Local/Temp/DefaultCompany/VR-Chat World/customscene2.vrcw
 SceneListBegin?
 Assets/Scenes/SampleScene.unity
 SceneListEnd?
