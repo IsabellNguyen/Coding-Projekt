@@ -14,28 +14,50 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   serializedUdonProgramAsset: {fileID: 11400000, guid: d142b4e36fd6adf4bba02667f585dd3d,
     type: 2}
-  udonAssembly: ".data_start\n\n    .export turned\n\n    __refl_const_intnl_udonTypeID:
-    %SystemInt64, null\n    __refl_const_intnl_udonTypeName: %SystemString, null\n
-    \   turned: %SystemBoolean, null\n    __0_this_intnl_UnityEngineGameObject: %UnityEngineGameObject,
+  udonAssembly: ".data_start\n\n    .export turned\n    .export memory_gamemaster\n\n
+    \   __refl_const_intnl_udonTypeID: %SystemInt64, null\n    __refl_const_intnl_udonTypeName:
+    %SystemString, null\n    turned: %SystemBoolean, null\n    memory_gamemaster:
+    %UnityEngineGameObject, null\n    __0_this_intnl_UnityEngineGameObject: %UnityEngineGameObject,
     this\n    __0_const_intnl_SystemBoolean: %SystemBoolean, null\n    __0_const_intnl_SystemInt32:
-    %SystemInt32, null\n    __0_const_intnl_SystemUInt32: %SystemUInt32, null\n    __0_intnl_SystemSingle:
-    %SystemSingle, null\n    __1_intnl_SystemSingle: %SystemSingle, null\n    __2_intnl_SystemSingle:
-    %SystemSingle, null\n    __3_intnl_SystemSingle: %SystemSingle, null\n    __4_intnl_SystemSingle:
+    %SystemInt32, null\n    __1_const_intnl_SystemInt32: %SystemInt32, null\n    __2_const_intnl_SystemInt32:
+    %SystemInt32, null\n    __0_const_intnl_SystemInt64: %SystemInt64, null\n    __1_const_intnl_SystemInt64:
+    %SystemInt64, null\n    __0_const_intnl_SystemObject: %SystemObject, null\n    __0_const_intnl_SystemString:
+    %SystemString, null\n    __1_const_intnl_SystemString: %SystemString, null\n    __0_const_intnl_SystemType:
+    %SystemType, null\n    __0_const_intnl_memory_game: %VRCUdonUdonBehaviour, null\n
+    \   __0_const_intnl_SystemUInt32: %SystemUInt32, null\n    __0_intnl_SystemBoolean:
+    %SystemBoolean, null\n    __1_intnl_SystemBoolean: %SystemBoolean, null\n    __2_intnl_SystemBoolean:
+    %SystemBoolean, null\n    __0_intnl_UnityEngineComponent: %UnityEngineComponent,
+    null\n    __0_intnl_UnityEngineComponentArray: %UnityEngineComponentArray, null\n
+    \   __0_intnl_SystemInt32: %SystemInt32, null\n    __1_intnl_SystemInt32: %SystemInt32,
+    null\n    __2_intnl_SystemInt32: %SystemInt32, null\n    __0_intnl_SystemInt64:
+    %SystemInt64, null\n    __1_intnl_SystemInt64: %SystemInt64, null\n    __0_intnl_SystemObject:
+    %SystemObject, null\n    __0_intnl_SystemSingle: %SystemSingle, null\n    __1_intnl_SystemSingle:
+    %SystemSingle, null\n    __2_intnl_SystemSingle: %SystemSingle, null\n    __3_intnl_SystemSingle:
+    %SystemSingle, null\n    __4_intnl_SystemSingle: %SystemSingle, null\n    __5_intnl_SystemSingle:
+    %SystemSingle, null\n    __6_intnl_SystemSingle: %SystemSingle, null\n    __7_intnl_SystemSingle:
+    %SystemSingle, null\n    __8_intnl_SystemSingle: %SystemSingle, null\n    __9_intnl_SystemSingle:
     %SystemSingle, null\n    __0_intnl_UnityEngineTransform: %UnityEngineTransform,
     null\n    __1_intnl_UnityEngineTransform: %UnityEngineTransform, null\n    __2_intnl_UnityEngineTransform:
     %UnityEngineTransform, null\n    __3_intnl_UnityEngineTransform: %UnityEngineTransform,
+    null\n    __4_intnl_UnityEngineTransform: %UnityEngineTransform, null\n    __5_intnl_UnityEngineTransform:
+    %UnityEngineTransform, null\n    __6_intnl_UnityEngineTransform: %UnityEngineTransform,
+    null\n    __7_intnl_UnityEngineTransform: %UnityEngineTransform, null\n    __0_intnl_memory_game:
+    %VRCUdonUdonBehaviour, null\n    __1_intnl_memory_game: %VRCUdonUdonBehaviour,
     null\n    __0_intnl_returnTarget_UInt32: %SystemUInt32, null\n    __0_intnl_UnityEngineVector3:
     %UnityEngineVector3, null\n    __1_intnl_UnityEngineVector3: %UnityEngineVector3,
     null\n    __2_intnl_UnityEngineVector3: %UnityEngineVector3, null\n    __3_intnl_UnityEngineVector3:
-    %UnityEngineVector3, null\n\n.data_end\n\n        \n         # using UdonSharp;\n
-    \       \n         # using UnityEngine;\n        \n         # using VRC.SDKBase;\n
-    \       \n         # using VRC.Udon;\n        \n         # public class playcard_turn
-    : UdonSharpBehaviour\n.code_start\n        \n         # public bool turned = false;\n
-    \       \n         # void Interact()\n    .export _interact\n        \n    _interact:\n
-    \       \n        PUSH, __0_const_intnl_SystemUInt32\n        \n         # {\n
-    \       \n         # gameObject.transform.eulerAngles = new Vector3(\n        PUSH,
-    __0_this_intnl_UnityEngineGameObject\n        PUSH, __0_intnl_UnityEngineTransform\n
-    \       EXTERN, \"UnityEngineGameObject.__get_transform__UnityEngineTransform\"\n
+    %UnityEngineVector3, null\n    __4_intnl_UnityEngineVector3: %UnityEngineVector3,
+    null\n    __5_intnl_UnityEngineVector3: %UnityEngineVector3, null\n    __6_intnl_UnityEngineVector3:
+    %UnityEngineVector3, null\n    __7_intnl_UnityEngineVector3: %UnityEngineVector3,
+    null\n\n.data_end\n\n        \n         # using UdonSharp;\n        \n         #
+    using UnityEngine;\n        \n         # using VRC.SDKBase;\n        \n         #
+    using VRC.Udon;\n        \n         # public class playcard_turn : UdonSharpBehaviour\n.code_start\n
+    \       \n         # public bool turned = false;\n        \n         # public
+    GameObject memory_gamemaster;\n        \n         # void Interact()\n    .export
+    _interact\n        \n    _interact:\n        \n        PUSH, __0_const_intnl_SystemUInt32\n
+    \       \n         # {\n        \n         # gameObject.transform.eulerAngles
+    = new Vector3(\n        PUSH, __0_this_intnl_UnityEngineGameObject\n        PUSH,
+    __0_intnl_UnityEngineTransform\n        EXTERN, \"UnityEngineGameObject.__get_transform__UnityEngineTransform\"\n
     \       \n         # gameObject.transform.eulerAngles.x,\n        PUSH, __0_this_intnl_UnityEngineGameObject\n
     \       PUSH, __1_intnl_UnityEngineTransform\n        EXTERN, \"UnityEngineGameObject.__get_transform__UnityEngineTransform\"\n
     \       PUSH, __1_intnl_UnityEngineTransform\n        PUSH, __0_intnl_UnityEngineVector3\n
@@ -64,12 +86,77 @@ MonoBehaviour:
     \       EXTERN, \"UnityEngineTransform.__set_eulerAngles__UnityEngineVector3__SystemVoid\"\n
     \       \n         # turned = !turned;\n        PUSH, turned\n        PUSH, turned\n
     \       EXTERN, \"SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean\"\n
+    \       \n         # memory_gamemaster.GetComponent<memory_game>().SendCustomEvent(\"cardCheck\");\n
+    \       PUSH, memory_gamemaster\n        PUSH, __0_const_intnl_SystemType\n        PUSH,
+    __0_intnl_UnityEngineComponentArray\n        EXTERN, \"UnityEngineGameObject.__GetComponents__SystemType__UnityEngineComponentArray\"\n
+    \       PUSH, __0_const_intnl_memory_game\n        PUSH, __0_intnl_memory_game\n
+    \       COPY\n        PUSH, __0_intnl_UnityEngineComponentArray\n        PUSH,
+    __0_intnl_SystemInt32\n        EXTERN, \"UnityEngineComponentArray.__get_Length__SystemInt32\"\n
+    \       PUSH, __1_const_intnl_SystemInt32\n        PUSH, __1_intnl_SystemInt32\n
+    \       COPY\n        PUSH, __1_intnl_SystemInt32\n        PUSH, __0_intnl_SystemInt32\n
+    \       PUSH, __0_intnl_SystemBoolean\n        EXTERN, \"SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean\"\n
+    \       PUSH, __0_intnl_SystemBoolean\n        JUMP_IF_FALSE, 0x0000036C\n        PUSH,
+    __0_intnl_UnityEngineComponentArray\n        PUSH, __1_intnl_SystemInt32\n        PUSH,
+    __0_intnl_UnityEngineComponent\n        EXTERN, \"UnityEngineComponentArray.__Get__SystemInt32__UnityEngineComponent\"\n
+    \       PUSH, __0_intnl_UnityEngineComponent\n        PUSH, __1_intnl_memory_game\n
+    \       COPY\n        PUSH, __1_intnl_memory_game\n        PUSH, __0_const_intnl_SystemString\n
+    \       PUSH, __0_intnl_SystemObject\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject\"\n
+    \       PUSH, __0_intnl_SystemObject\n        PUSH, __0_const_intnl_SystemObject\n
+    \       PUSH, __1_intnl_SystemBoolean\n        EXTERN, \"SystemObject.__op_Inequality__SystemObject_SystemObject__SystemBoolean\"\n
+    \       PUSH, __1_intnl_SystemBoolean\n        JUMP_IF_FALSE, 0x000002D0\n        PUSH,
+    __0_intnl_SystemObject\n        PUSH, __1_intnl_SystemInt64\n        EXTERN, \"SystemConvert.__ToInt64__SystemObject__SystemInt64\"\n
+    \       PUSH, __1_intnl_SystemInt64\n        PUSH, __0_intnl_SystemInt64\n        COPY\n
+    \       JUMP, 0x000002E4\n        PUSH, __1_const_intnl_SystemInt64\n        PUSH,
+    __0_intnl_SystemInt64\n        COPY\n        PUSH, __0_intnl_SystemInt64\n        PUSH,
+    __0_const_intnl_SystemInt64\n        PUSH, __2_intnl_SystemBoolean\n        EXTERN,
+    \"SystemInt64.__op_Equality__SystemInt64_SystemInt64__SystemBoolean\"\n        PUSH,
+    __2_intnl_SystemBoolean\n        JUMP_IF_FALSE, 0x00000330\n        PUSH, __1_intnl_memory_game\n
+    \       PUSH, __0_intnl_memory_game\n        COPY\n        JUMP, 0x0000036C\n
+    \       PUSH, __1_intnl_SystemInt32\n        PUSH, __2_const_intnl_SystemInt32\n
+    \       PUSH, __2_intnl_SystemInt32\n        EXTERN, \"SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32\"\n
+    \       PUSH, __2_intnl_SystemInt32\n        PUSH, __1_intnl_SystemInt32\n        COPY\n
+    \       JUMP, 0x000001E8\n        PUSH, __0_intnl_memory_game\n        PUSH, __1_const_intnl_SystemString\n
+    \       EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\n
     \       PUSH, __0_intnl_returnTarget_UInt32 #Function epilogue\n        COPY\n
     \       JUMP_INDIRECT, __0_intnl_returnTarget_UInt32\n        \n        \n         #
     public void disable()\n    .export disable\n        \n    disable:\n        \n
     \       PUSH, __0_const_intnl_SystemUInt32\n        \n         # {\n        \n
     \        # gameObject.SetActive(false);\n        PUSH, __0_this_intnl_UnityEngineGameObject\n
     \       PUSH, __0_const_intnl_SystemBoolean\n        EXTERN, \"UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid\"\n
+    \       PUSH, __0_intnl_returnTarget_UInt32 #Function epilogue\n        COPY\n
+    \       JUMP_INDIRECT, __0_intnl_returnTarget_UInt32\n        \n        \n         #
+    public void reset()\n    .export reset\n        \n    reset:\n        \n        PUSH,
+    __0_const_intnl_SystemUInt32\n        \n         # {\n        \n         # gameObject.transform.eulerAngles
+    = new Vector3(\n        PUSH, __0_this_intnl_UnityEngineGameObject\n        PUSH,
+    __4_intnl_UnityEngineTransform\n        EXTERN, \"UnityEngineGameObject.__get_transform__UnityEngineTransform\"\n
+    \       \n         # gameObject.transform.eulerAngles.x,\n        PUSH, __0_this_intnl_UnityEngineGameObject\n
+    \       PUSH, __5_intnl_UnityEngineTransform\n        EXTERN, \"UnityEngineGameObject.__get_transform__UnityEngineTransform\"\n
+    \       PUSH, __5_intnl_UnityEngineTransform\n        PUSH, __4_intnl_UnityEngineVector3\n
+    \       EXTERN, \"UnityEngineTransform.__get_eulerAngles__UnityEngineVector3\"\n
+    \       PUSH, __4_intnl_UnityEngineVector3\n        PUSH, __5_intnl_SystemSingle\n
+    \       EXTERN, \"UnityEngineVector3.__get_x__SystemSingle\"\n        \n         #
+    gameObject.transform.eulerAngles.y,\n        PUSH, __0_this_intnl_UnityEngineGameObject\n
+    \       PUSH, __6_intnl_UnityEngineTransform\n        EXTERN, \"UnityEngineGameObject.__get_transform__UnityEngineTransform\"\n
+    \       PUSH, __6_intnl_UnityEngineTransform\n        PUSH, __5_intnl_UnityEngineVector3\n
+    \       EXTERN, \"UnityEngineTransform.__get_eulerAngles__UnityEngineVector3\"\n
+    \       PUSH, __5_intnl_UnityEngineVector3\n        PUSH, __6_intnl_SystemSingle\n
+    \       EXTERN, \"UnityEngineVector3.__get_y__SystemSingle\"\n        \n         #
+    gameObject.transform.eulerAngles.z + 180\n        PUSH, __0_this_intnl_UnityEngineGameObject\n
+    \       PUSH, __7_intnl_UnityEngineTransform\n        EXTERN, \"UnityEngineGameObject.__get_transform__UnityEngineTransform\"\n
+    \       PUSH, __7_intnl_UnityEngineTransform\n        PUSH, __6_intnl_UnityEngineVector3\n
+    \       EXTERN, \"UnityEngineTransform.__get_eulerAngles__UnityEngineVector3\"\n
+    \       PUSH, __6_intnl_UnityEngineVector3\n        PUSH, __7_intnl_SystemSingle\n
+    \       EXTERN, \"UnityEngineVector3.__get_z__SystemSingle\"\n        PUSH, __0_const_intnl_SystemInt32\n
+    \       PUSH, __8_intnl_SystemSingle\n        EXTERN, \"SystemConvert.__ToSingle__SystemInt32__SystemSingle\"\n
+    \       PUSH, __7_intnl_SystemSingle\n        PUSH, __8_intnl_SystemSingle\n        PUSH,
+    __9_intnl_SystemSingle\n        EXTERN, \"SystemSingle.__op_Addition__SystemSingle_SystemSingle__SystemSingle\"\n
+    \       PUSH, __5_intnl_SystemSingle\n        PUSH, __6_intnl_SystemSingle\n        PUSH,
+    __9_intnl_SystemSingle\n        PUSH, __7_intnl_UnityEngineVector3\n        EXTERN,
+    \"UnityEngineVector3.__ctor__SystemSingle_SystemSingle_SystemSingle__UnityEngineVector3\"\n
+    \       PUSH, __4_intnl_UnityEngineTransform\n        PUSH, __7_intnl_UnityEngineVector3\n
+    \       EXTERN, \"UnityEngineTransform.__set_eulerAngles__UnityEngineVector3__SystemVoid\"\n
+    \       \n         # turned = !turned;\n        PUSH, turned\n        PUSH, turned\n
+    \       EXTERN, \"SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean\"\n
     \       PUSH, __0_intnl_returnTarget_UInt32 #Function epilogue\n        COPY\n
     \       JUMP_INDIRECT, __0_intnl_returnTarget_UInt32\n        \n.code_end\n"
   assemblyError: 
@@ -226,356 +313,748 @@ MonoBehaviour:
       lineChar: 11
       spanCodeSection: "bool turned = false;\r\n    "
     - startInstruction: 0
-      endInstruction: 7
+      endInstruction: -1
       startSourceChar: 168
-      endSourceChar: 189
+      endSourceChar: 175
       line: 9
+      lineChar: 4
+      spanCodeSection: 'public '
+    - startInstruction: 0
+      endInstruction: -1
+      startSourceChar: 175
+      endSourceChar: 175
+      line: 9
+      lineChar: 11
+      spanCodeSection: 
+    - startInstruction: 0
+      endInstruction: -1
+      startSourceChar: 175
+      endSourceChar: 212
+      line: 9
+      lineChar: 11
+      spanCodeSection: "GameObject memory_gamemaster;\r\n\r\n    "
+    - startInstruction: 0
+      endInstruction: 7
+      startSourceChar: 212
+      endSourceChar: 233
+      line: 11
       lineChar: 4
       spanCodeSection: "void Interact()\r\n    "
     - startInstruction: 8
       endInstruction: 7
-      startSourceChar: 189
-      endSourceChar: 368
-      line: 10
+      startSourceChar: 233
+      endSourceChar: 412
+      line: 12
       lineChar: 4
       spanCodeSection: "{\r\n\r\n        //test.SetActive(!test.activeSelf);\r\n\r\n
         \       //gameObject.SetActive(!gameObject.activeInHierarchy);\r\n        //gameObject.transform.eulerAngles.y
         = 180;\r\n\r\n        "
     - startInstruction: 8
       endInstruction: 7
-      startSourceChar: 368
-      endSourceChar: 368
-      line: 17
+      startSourceChar: 412
+      endSourceChar: 412
+      line: 19
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 8
       endInstruction: 7
-      startSourceChar: 368
-      endSourceChar: 368
-      line: 17
+      startSourceChar: 412
+      endSourceChar: 412
+      line: 19
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 8
       endInstruction: 7
-      startSourceChar: 368
-      endSourceChar: 368
-      line: 17
+      startSourceChar: 412
+      endSourceChar: 412
+      line: 19
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 8
       endInstruction: 7
-      startSourceChar: 368
-      endSourceChar: 368
-      line: 17
+      startSourceChar: 412
+      endSourceChar: 412
+      line: 19
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 8
       endInstruction: 7
-      startSourceChar: 368
-      endSourceChar: 379
-      line: 17
+      startSourceChar: 412
+      endSourceChar: 423
+      line: 19
       lineChar: 8
       spanCodeSection: gameObject.
     - startInstruction: 8
       endInstruction: 7
-      startSourceChar: 379
-      endSourceChar: 389
-      line: 17
+      startSourceChar: 423
+      endSourceChar: 433
+      line: 19
       lineChar: 19
       spanCodeSection: transform.
     - startInstruction: 8
       endInstruction: 31
-      startSourceChar: 389
-      endSourceChar: 403
-      line: 17
+      startSourceChar: 433
+      endSourceChar: 447
+      line: 19
       lineChar: 29
       spanCodeSection: 'eulerAngles = '
     - startInstruction: 32
       endInstruction: 31
-      startSourceChar: 403
-      endSourceChar: 407
-      line: 17
+      startSourceChar: 447
+      endSourceChar: 451
+      line: 19
       lineChar: 43
       spanCodeSection: 'new '
     - startInstruction: 32
       endInstruction: 31
-      startSourceChar: 407
-      endSourceChar: 425
-      line: 17
+      startSourceChar: 451
+      endSourceChar: 469
+      line: 19
       lineChar: 47
       spanCodeSection: "Vector3(\r\n        "
     - startInstruction: 32
       endInstruction: 31
-      startSourceChar: 425
-      endSourceChar: 425
-      line: 18
+      startSourceChar: 469
+      endSourceChar: 469
+      line: 20
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 32
       endInstruction: 31
-      startSourceChar: 425
-      endSourceChar: 425
-      line: 18
+      startSourceChar: 469
+      endSourceChar: 469
+      line: 20
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 32
       endInstruction: 31
-      startSourceChar: 425
-      endSourceChar: 425
-      line: 18
+      startSourceChar: 469
+      endSourceChar: 469
+      line: 20
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 32
       endInstruction: 31
-      startSourceChar: 425
-      endSourceChar: 425
-      line: 18
+      startSourceChar: 469
+      endSourceChar: 469
+      line: 20
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 32
       endInstruction: 31
-      startSourceChar: 425
-      endSourceChar: 436
-      line: 18
+      startSourceChar: 469
+      endSourceChar: 480
+      line: 20
       lineChar: 8
       spanCodeSection: gameObject.
     - startInstruction: 32
       endInstruction: 31
-      startSourceChar: 436
-      endSourceChar: 446
-      line: 18
+      startSourceChar: 480
+      endSourceChar: 490
+      line: 20
       lineChar: 19
       spanCodeSection: transform.
     - startInstruction: 32
       endInstruction: 55
-      startSourceChar: 446
-      endSourceChar: 458
-      line: 18
+      startSourceChar: 490
+      endSourceChar: 502
+      line: 20
       lineChar: 29
       spanCodeSection: eulerAngles.
     - startInstruction: 56
       endInstruction: 103
-      startSourceChar: 458
-      endSourceChar: 470
-      line: 18
+      startSourceChar: 502
+      endSourceChar: 514
+      line: 20
       lineChar: 41
       spanCodeSection: "x,\r\n        "
     - startInstruction: 104
       endInstruction: 103
-      startSourceChar: 470
-      endSourceChar: 470
-      line: 19
+      startSourceChar: 514
+      endSourceChar: 514
+      line: 21
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 104
       endInstruction: 103
-      startSourceChar: 470
-      endSourceChar: 470
-      line: 19
+      startSourceChar: 514
+      endSourceChar: 514
+      line: 21
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 104
       endInstruction: 103
-      startSourceChar: 470
-      endSourceChar: 470
-      line: 19
+      startSourceChar: 514
+      endSourceChar: 514
+      line: 21
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 104
       endInstruction: 103
-      startSourceChar: 470
-      endSourceChar: 470
-      line: 19
+      startSourceChar: 514
+      endSourceChar: 514
+      line: 21
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 104
       endInstruction: 103
-      startSourceChar: 470
-      endSourceChar: 481
-      line: 19
+      startSourceChar: 514
+      endSourceChar: 525
+      line: 21
       lineChar: 8
       spanCodeSection: gameObject.
     - startInstruction: 104
       endInstruction: 103
-      startSourceChar: 481
-      endSourceChar: 491
-      line: 19
+      startSourceChar: 525
+      endSourceChar: 535
+      line: 21
       lineChar: 19
       spanCodeSection: transform.
     - startInstruction: 104
       endInstruction: 127
-      startSourceChar: 491
-      endSourceChar: 503
-      line: 19
+      startSourceChar: 535
+      endSourceChar: 547
+      line: 21
       lineChar: 29
       spanCodeSection: eulerAngles.
     - startInstruction: 128
       endInstruction: 175
-      startSourceChar: 503
-      endSourceChar: 515
-      line: 19
+      startSourceChar: 547
+      endSourceChar: 559
+      line: 21
       lineChar: 41
       spanCodeSection: "y,\r\n        "
     - startInstruction: 176
       endInstruction: 175
-      startSourceChar: 515
-      endSourceChar: 515
-      line: 20
+      startSourceChar: 559
+      endSourceChar: 559
+      line: 22
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 176
       endInstruction: 175
-      startSourceChar: 515
-      endSourceChar: 515
-      line: 20
+      startSourceChar: 559
+      endSourceChar: 559
+      line: 22
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 176
       endInstruction: 175
-      startSourceChar: 515
-      endSourceChar: 515
-      line: 20
+      startSourceChar: 559
+      endSourceChar: 559
+      line: 22
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 176
       endInstruction: 175
-      startSourceChar: 515
-      endSourceChar: 515
-      line: 20
+      startSourceChar: 559
+      endSourceChar: 559
+      line: 22
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 176
       endInstruction: 175
-      startSourceChar: 515
-      endSourceChar: 515
-      line: 20
+      startSourceChar: 559
+      endSourceChar: 559
+      line: 22
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 176
       endInstruction: 175
-      startSourceChar: 515
-      endSourceChar: 526
-      line: 20
+      startSourceChar: 559
+      endSourceChar: 570
+      line: 22
       lineChar: 8
       spanCodeSection: gameObject.
     - startInstruction: 176
       endInstruction: 175
-      startSourceChar: 526
-      endSourceChar: 536
-      line: 20
+      startSourceChar: 570
+      endSourceChar: 580
+      line: 22
       lineChar: 19
       spanCodeSection: transform.
     - startInstruction: 176
       endInstruction: 199
-      startSourceChar: 536
-      endSourceChar: 548
-      line: 20
+      startSourceChar: 580
+      endSourceChar: 592
+      line: 22
       lineChar: 29
       spanCodeSection: eulerAngles.
     - startInstruction: 200
       endInstruction: 247
-      startSourceChar: 548
-      endSourceChar: 552
-      line: 20
+      startSourceChar: 592
+      endSourceChar: 596
+      line: 22
       lineChar: 41
       spanCodeSection: 'z + '
     - startInstruction: 248
       endInstruction: 367
-      startSourceChar: 552
-      endSourceChar: 577
-      line: 20
+      startSourceChar: 596
+      endSourceChar: 621
+      line: 22
       lineChar: 45
       spanCodeSection: "180\r\n        );\r\n        "
     - startInstruction: 368
       endInstruction: 367
-      startSourceChar: 577
-      endSourceChar: 577
-      line: 22
+      startSourceChar: 621
+      endSourceChar: 621
+      line: 24
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 368
       endInstruction: 367
-      startSourceChar: 577
-      endSourceChar: 577
-      line: 22
+      startSourceChar: 621
+      endSourceChar: 621
+      line: 24
       lineChar: 8
       spanCodeSection: 
     - startInstruction: 368
       endInstruction: 367
-      startSourceChar: 577
-      endSourceChar: 586
-      line: 22
+      startSourceChar: 621
+      endSourceChar: 630
+      line: 24
       lineChar: 8
       spanCodeSection: 'turned = '
     - startInstruction: 368
       endInstruction: 367
-      startSourceChar: 586
-      endSourceChar: 587
-      line: 22
+      startSourceChar: 630
+      endSourceChar: 631
+      line: 24
       lineChar: 17
       spanCodeSection: '!'
     - startInstruction: 368
-      endInstruction: 411
-      startSourceChar: 587
-      endSourceChar: 611
-      line: 22
+      endInstruction: 391
+      startSourceChar: 631
+      endSourceChar: 650
+      line: 24
       lineChar: 18
-      spanCodeSection: "turned;\r\n\r\n    }\r\n\r\n    "
-    - startInstruction: 412
-      endInstruction: 419
-      startSourceChar: 611
-      endSourceChar: 638
+      spanCodeSection: "turned;\r\n\r\n        "
+    - startInstruction: 392
+      endInstruction: 391
+      startSourceChar: 650
+      endSourceChar: 650
       line: 26
+      lineChar: 8
+      spanCodeSection: 
+    - startInstruction: 392
+      endInstruction: 391
+      startSourceChar: 650
+      endSourceChar: 650
+      line: 26
+      lineChar: 8
+      spanCodeSection: 
+    - startInstruction: 392
+      endInstruction: 391
+      startSourceChar: 650
+      endSourceChar: 650
+      line: 26
+      lineChar: 8
+      spanCodeSection: 
+    - startInstruction: 392
+      endInstruction: 391
+      startSourceChar: 650
+      endSourceChar: 650
+      line: 26
+      lineChar: 8
+      spanCodeSection: 
+    - startInstruction: 392
+      endInstruction: 391
+      startSourceChar: 650
+      endSourceChar: 650
+      line: 26
+      lineChar: 8
+      spanCodeSection: 
+    - startInstruction: 392
+      endInstruction: 391
+      startSourceChar: 650
+      endSourceChar: 668
+      line: 26
+      lineChar: 8
+      spanCodeSection: memory_gamemaster.
+    - startInstruction: 392
+      endInstruction: 391
+      startSourceChar: 668
+      endSourceChar: 680
+      line: 26
+      lineChar: 26
+      spanCodeSection: GetComponent
+    - startInstruction: 392
+      endInstruction: 391
+      startSourceChar: 680
+      endSourceChar: 681
+      line: 26
+      lineChar: 38
+      spanCodeSection: <
+    - startInstruction: 392
+      endInstruction: 875
+      startSourceChar: 681
+      endSourceChar: 696
+      line: 26
+      lineChar: 39
+      spanCodeSection: memory_game>().
+    - startInstruction: 876
+      endInstruction: 875
+      startSourceChar: 696
+      endSourceChar: 712
+      line: 26
+      lineChar: 54
+      spanCodeSection: SendCustomEvent(
+    - startInstruction: 876
+      endInstruction: 919
+      startSourceChar: 712
+      endSourceChar: 742
+      line: 26
+      lineChar: 70
+      spanCodeSection: "\"cardCheck\");\r\n\r\n    }\r\n\r\n    "
+    - startInstruction: 920
+      endInstruction: 927
+      startSourceChar: 742
+      endSourceChar: 769
+      line: 30
       lineChar: 4
       spanCodeSection: "public void disable()\r\n    "
-    - startInstruction: 420
-      endInstruction: 419
-      startSourceChar: 638
-      endSourceChar: 649
-      line: 27
+    - startInstruction: 928
+      endInstruction: 927
+      startSourceChar: 769
+      endSourceChar: 780
+      line: 31
       lineChar: 4
       spanCodeSection: "{\r\n        "
-    - startInstruction: 420
-      endInstruction: 419
-      startSourceChar: 649
-      endSourceChar: 649
-      line: 28
+    - startInstruction: 928
+      endInstruction: 927
+      startSourceChar: 780
+      endSourceChar: 780
+      line: 32
       lineChar: 8
       spanCodeSection: 
-    - startInstruction: 420
-      endInstruction: 419
-      startSourceChar: 649
-      endSourceChar: 649
-      line: 28
+    - startInstruction: 928
+      endInstruction: 927
+      startSourceChar: 780
+      endSourceChar: 780
+      line: 32
       lineChar: 8
       spanCodeSection: 
-    - startInstruction: 420
-      endInstruction: 419
-      startSourceChar: 649
-      endSourceChar: 649
-      line: 28
+    - startInstruction: 928
+      endInstruction: 927
+      startSourceChar: 780
+      endSourceChar: 780
+      line: 32
       lineChar: 8
       spanCodeSection: 
-    - startInstruction: 420
-      endInstruction: 419
-      startSourceChar: 649
-      endSourceChar: 660
-      line: 28
+    - startInstruction: 928
+      endInstruction: 927
+      startSourceChar: 780
+      endSourceChar: 791
+      line: 32
       lineChar: 8
       spanCodeSection: gameObject.
-    - startInstruction: 420
-      endInstruction: 419
-      startSourceChar: 660
-      endSourceChar: 670
-      line: 28
+    - startInstruction: 928
+      endInstruction: 927
+      startSourceChar: 791
+      endSourceChar: 801
+      line: 32
       lineChar: 19
       spanCodeSection: SetActive(
-    - startInstruction: 420
-      endInstruction: 420
-      startSourceChar: 670
-      endSourceChar: 670
-      line: 28
+    - startInstruction: 928
+      endInstruction: 971
+      startSourceChar: 801
+      endSourceChar: 823
+      line: 32
       lineChar: 29
+      spanCodeSection: "false);\r\n    }\r\n\r\n    "
+    - startInstruction: 972
+      endInstruction: 979
+      startSourceChar: 823
+      endSourceChar: 848
+      line: 35
+      lineChar: 4
+      spanCodeSection: "public void reset()\r\n    "
+    - startInstruction: 980
+      endInstruction: 979
+      startSourceChar: 848
+      endSourceChar: 859
+      line: 36
+      lineChar: 4
+      spanCodeSection: "{\r\n        "
+    - startInstruction: 980
+      endInstruction: 979
+      startSourceChar: 859
+      endSourceChar: 859
+      line: 37
+      lineChar: 8
+      spanCodeSection: 
+    - startInstruction: 980
+      endInstruction: 979
+      startSourceChar: 859
+      endSourceChar: 859
+      line: 37
+      lineChar: 8
+      spanCodeSection: 
+    - startInstruction: 980
+      endInstruction: 979
+      startSourceChar: 859
+      endSourceChar: 859
+      line: 37
+      lineChar: 8
+      spanCodeSection: 
+    - startInstruction: 980
+      endInstruction: 979
+      startSourceChar: 859
+      endSourceChar: 859
+      line: 37
+      lineChar: 8
+      spanCodeSection: 
+    - startInstruction: 980
+      endInstruction: 979
+      startSourceChar: 859
+      endSourceChar: 870
+      line: 37
+      lineChar: 8
+      spanCodeSection: gameObject.
+    - startInstruction: 980
+      endInstruction: 979
+      startSourceChar: 870
+      endSourceChar: 880
+      line: 37
+      lineChar: 19
+      spanCodeSection: transform.
+    - startInstruction: 980
+      endInstruction: 1003
+      startSourceChar: 880
+      endSourceChar: 894
+      line: 37
+      lineChar: 29
+      spanCodeSection: 'eulerAngles = '
+    - startInstruction: 1004
+      endInstruction: 1003
+      startSourceChar: 894
+      endSourceChar: 898
+      line: 37
+      lineChar: 43
+      spanCodeSection: 'new '
+    - startInstruction: 1004
+      endInstruction: 1003
+      startSourceChar: 898
+      endSourceChar: 916
+      line: 37
+      lineChar: 47
+      spanCodeSection: "Vector3(\r\n        "
+    - startInstruction: 1004
+      endInstruction: 1003
+      startSourceChar: 916
+      endSourceChar: 916
+      line: 38
+      lineChar: 8
+      spanCodeSection: 
+    - startInstruction: 1004
+      endInstruction: 1003
+      startSourceChar: 916
+      endSourceChar: 916
+      line: 38
+      lineChar: 8
+      spanCodeSection: 
+    - startInstruction: 1004
+      endInstruction: 1003
+      startSourceChar: 916
+      endSourceChar: 916
+      line: 38
+      lineChar: 8
+      spanCodeSection: 
+    - startInstruction: 1004
+      endInstruction: 1003
+      startSourceChar: 916
+      endSourceChar: 916
+      line: 38
+      lineChar: 8
+      spanCodeSection: 
+    - startInstruction: 1004
+      endInstruction: 1003
+      startSourceChar: 916
+      endSourceChar: 927
+      line: 38
+      lineChar: 8
+      spanCodeSection: gameObject.
+    - startInstruction: 1004
+      endInstruction: 1003
+      startSourceChar: 927
+      endSourceChar: 937
+      line: 38
+      lineChar: 19
+      spanCodeSection: transform.
+    - startInstruction: 1004
+      endInstruction: 1027
+      startSourceChar: 937
+      endSourceChar: 949
+      line: 38
+      lineChar: 29
+      spanCodeSection: eulerAngles.
+    - startInstruction: 1028
+      endInstruction: 1075
+      startSourceChar: 949
+      endSourceChar: 961
+      line: 38
+      lineChar: 41
+      spanCodeSection: "x,\r\n        "
+    - startInstruction: 1076
+      endInstruction: 1075
+      startSourceChar: 961
+      endSourceChar: 961
+      line: 39
+      lineChar: 8
+      spanCodeSection: 
+    - startInstruction: 1076
+      endInstruction: 1075
+      startSourceChar: 961
+      endSourceChar: 961
+      line: 39
+      lineChar: 8
+      spanCodeSection: 
+    - startInstruction: 1076
+      endInstruction: 1075
+      startSourceChar: 961
+      endSourceChar: 961
+      line: 39
+      lineChar: 8
+      spanCodeSection: 
+    - startInstruction: 1076
+      endInstruction: 1075
+      startSourceChar: 961
+      endSourceChar: 961
+      line: 39
+      lineChar: 8
+      spanCodeSection: 
+    - startInstruction: 1076
+      endInstruction: 1075
+      startSourceChar: 961
+      endSourceChar: 972
+      line: 39
+      lineChar: 8
+      spanCodeSection: gameObject.
+    - startInstruction: 1076
+      endInstruction: 1075
+      startSourceChar: 972
+      endSourceChar: 982
+      line: 39
+      lineChar: 19
+      spanCodeSection: transform.
+    - startInstruction: 1076
+      endInstruction: 1099
+      startSourceChar: 982
+      endSourceChar: 994
+      line: 39
+      lineChar: 29
+      spanCodeSection: eulerAngles.
+    - startInstruction: 1100
+      endInstruction: 1147
+      startSourceChar: 994
+      endSourceChar: 1006
+      line: 39
+      lineChar: 41
+      spanCodeSection: "y,\r\n        "
+    - startInstruction: 1148
+      endInstruction: 1147
+      startSourceChar: 1006
+      endSourceChar: 1006
+      line: 40
+      lineChar: 8
+      spanCodeSection: 
+    - startInstruction: 1148
+      endInstruction: 1147
+      startSourceChar: 1006
+      endSourceChar: 1006
+      line: 40
+      lineChar: 8
+      spanCodeSection: 
+    - startInstruction: 1148
+      endInstruction: 1147
+      startSourceChar: 1006
+      endSourceChar: 1006
+      line: 40
+      lineChar: 8
+      spanCodeSection: 
+    - startInstruction: 1148
+      endInstruction: 1147
+      startSourceChar: 1006
+      endSourceChar: 1006
+      line: 40
+      lineChar: 8
+      spanCodeSection: 
+    - startInstruction: 1148
+      endInstruction: 1147
+      startSourceChar: 1006
+      endSourceChar: 1006
+      line: 40
+      lineChar: 8
+      spanCodeSection: 
+    - startInstruction: 1148
+      endInstruction: 1147
+      startSourceChar: 1006
+      endSourceChar: 1017
+      line: 40
+      lineChar: 8
+      spanCodeSection: gameObject.
+    - startInstruction: 1148
+      endInstruction: 1147
+      startSourceChar: 1017
+      endSourceChar: 1027
+      line: 40
+      lineChar: 19
+      spanCodeSection: transform.
+    - startInstruction: 1148
+      endInstruction: 1171
+      startSourceChar: 1027
+      endSourceChar: 1039
+      line: 40
+      lineChar: 29
+      spanCodeSection: eulerAngles.
+    - startInstruction: 1172
+      endInstruction: 1219
+      startSourceChar: 1039
+      endSourceChar: 1043
+      line: 40
+      lineChar: 41
+      spanCodeSection: 'z + '
+    - startInstruction: 1220
+      endInstruction: 1339
+      startSourceChar: 1043
+      endSourceChar: 1068
+      line: 40
+      lineChar: 45
+      spanCodeSection: "180\r\n        );\r\n        "
+    - startInstruction: 1340
+      endInstruction: 1339
+      startSourceChar: 1068
+      endSourceChar: 1068
+      line: 42
+      lineChar: 8
+      spanCodeSection: 
+    - startInstruction: 1340
+      endInstruction: 1339
+      startSourceChar: 1068
+      endSourceChar: 1068
+      line: 42
+      lineChar: 8
+      spanCodeSection: 
+    - startInstruction: 1340
+      endInstruction: 1339
+      startSourceChar: 1068
+      endSourceChar: 1077
+      line: 42
+      lineChar: 8
+      spanCodeSection: 'turned = '
+    - startInstruction: 1340
+      endInstruction: 1339
+      startSourceChar: 1077
+      endSourceChar: 1078
+      line: 42
+      lineChar: 17
+      spanCodeSection: '!'
+    - startInstruction: 1340
+      endInstruction: 1340
+      startSourceChar: 1078
+      endSourceChar: 1078
+      line: 42
+      lineChar: 18
       spanCodeSection: 
   hasInteractEvent: 1
   serializationData:
@@ -600,7 +1079,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 12
-      Data: 1
+      Data: 2
     - Name: 
       Entry: 7
       Data: 
@@ -646,6 +1125,69 @@ MonoBehaviour:
     - Name: fieldAttributes
       Entry: 7
       Data: 5|System.Collections.Generic.List`1[[System.Attribute, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: userBehaviourSource
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: memory_gamemaster
+    - Name: $v
+      Entry: 7
+      Data: 6|UdonSharp.FieldDefinition, UdonSharp.Editor
+    - Name: fieldSymbol
+      Entry: 7
+      Data: 7|UdonSharp.SymbolDefinition, UdonSharp.Editor
+    - Name: internalType
+      Entry: 7
+      Data: 8|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: UnityEngine.GameObject, UnityEngine.CoreModule
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: declarationType
+      Entry: 3
+      Data: 1
+    - Name: syncMode
+      Entry: 3
+      Data: 0
+    - Name: symbolResolvedTypeName
+      Entry: 1
+      Data: UnityEngineGameObject
+    - Name: symbolOriginalName
+      Entry: 1
+      Data: memory_gamemaster
+    - Name: symbolUniqueName
+      Entry: 1
+      Data: memory_gamemaster
+    - Name: symbolDefaultValue
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: fieldAttributes
+      Entry: 7
+      Data: 9|System.Collections.Generic.List`1[[System.Attribute, mscorlib]], mscorlib
     - Name: 
       Entry: 12
       Data: 0
