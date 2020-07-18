@@ -224,6 +224,7 @@ F:\maxid\Documents\GitHub\Coding-Projekt\VR-Chat World\VR-Chat World\Temp\bin\De
 F:\maxid\Documents\GitHub\Coding-Projekt\VR-Chat World\VR-Chat World\Temp\bin\Debug\VRCCore-Editor.dll
 F:\maxid\Documents\GitHub\Coding-Projekt\VR-Chat World\VR-Chat World\Temp\bin\Debug\VRCSDK3-Editor.dll
 F:\maxid\Documents\GitHub\Coding-Projekt\VR-Chat World\VR-Chat World\Temp\bin\Debug\VRCSDK3.dll
+F:\maxid\Documents\GitHub\Coding-Projekt\VR-Chat World\VR-Chat World\Temp\bin\Debug\VRCSDKBase-Editor.dll
 F:\maxid\Documents\GitHub\Coding-Projekt\VR-Chat World\VR-Chat World\Temp\bin\Debug\VRCSDKBase.dll
 F:\maxid\Documents\GitHub\Coding-Projekt\VR-Chat World\VR-Chat World\Temp\bin\Debug\Unity.Cecil.dll
 F:\maxid\Documents\GitHub\Coding-Projekt\VR-Chat World\VR-Chat World\Temp\bin\Debug\Unity.SerializationLogic.dll
@@ -240,6 +241,7 @@ F:\maxid\Documents\GitHub\Coding-Projekt\VR-Chat World\VR-Chat World\Temp\bin\De
 F:\maxid\Documents\GitHub\Coding-Projekt\VR-Chat World\VR-Chat World\Temp\bin\Debug\Unity.CecilTools.dll
 F:\maxid\Documents\GitHub\Coding-Projekt\VR-Chat World\VR-Chat World\Temp\bin\Debug\Unity.Cecil.Pdb.dll
 F:\maxid\Documents\GitHub\Coding-Projekt\VR-Chat World\VR-Chat World\Temp\bin\Debug\Unity.Cecil.Mdb.dll
+F:\maxid\Documents\GitHub\Coding-Projekt\VR-Chat World\VR-Chat World\Temp\bin\Debug\VRC.Udon.Serialization.OdinSerializer.pdb
 F:\maxid\Documents\GitHub\Coding-Projekt\VR-Chat World\VR-Chat World\Temp\bin\Debug\UnityEditor.xml
 F:\maxid\Documents\GitHub\Coding-Projekt\VR-Chat World\VR-Chat World\Temp\bin\Debug\UnityEngine.AnimationModule.xml
 F:\maxid\Documents\GitHub\Coding-Projekt\VR-Chat World\VR-Chat World\Temp\bin\Debug\UnityEngine.AssetBundleModule.xml

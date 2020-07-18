@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
   m_Name: DropdownSync
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: 8e13e627794918b4ab547e54ea206a3f,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 3a9c6593b8fd1844da11fa70d00a3d66,
     type: 2}
   udonAssembly: ".data_start\r\n\r\n    .export uiDropdown\r\n    .sync dropdownValue,
     none\r\n    \r\n    instance_0: %UnityEngineUIDropdown, null\r\n    value_0: %SystemInt32,
@@ -140,4 +140,23 @@ MonoBehaviour:
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|OnValueChanged
+  graphElementData:
+  - type: 3
+    uid: 52c83e37-0c38-4600-934d-3b7dd36924ae
+    jsonData: '{"uid":"52c83e37-0c38-4600-934d-3b7dd36924ae","layout":{"serializedVersion":"2","x":410.3400573730469,"y":-570.5,"width":358.0,"height":93.0},"title":"We
+      don''t wire this up to Dropdown.SetValue below because Unity UI updates this
+      directly.","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
+  - type: 3
+    uid: f7eb2369-9edf-4458-b3e3-5ab1183d0006
+    jsonData: '{"uid":"f7eb2369-9edf-4458-b3e3-5ab1183d0006","layout":{"serializedVersion":"2","x":184.20327758789063,"y":-692.3375854492188,"width":325.7867431640625,"height":82.0168685913086},"title":"The
+      Owner of this Object will send their value to everyone else","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
+  - type: 3
+    uid: 029ada6c-cb02-4716-9f52-1dae1ffb21cf
+    jsonData: '{"uid":"029ada6c-cb02-4716-9f52-1dae1ffb21cf","layout":{"serializedVersion":"2","x":-757.58935546875,"y":-306.0398254394531,"width":304.2658386230469,"height":68.69444274902344},"title":"Deserialization
+      happens for everyone who is not the Owner","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
+  - type: 3
+    uid: 92cd56c4-5635-473e-a201-7a22bb52fd48
+    jsonData: '{"uid":"92cd56c4-5635-473e-a201-7a22bb52fd48","layout":{"serializedVersion":"2","x":-796.2857666015625,"y":-609.4407958984375,"width":349.8594665527344,"height":99.33453369140625},"title":"This
+      event can have any name we want as long as we make it the same on the UI item
+      that triggers it.","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
   showAssembly: 0
