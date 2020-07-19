@@ -11,12 +11,6 @@ public class playcard_turn : UdonSharpBehaviour
 
     void Interact()
     {
-
-        //test.SetActive(!test.activeSelf);
-
-        //gameObject.SetActive(!gameObject.activeInHierarchy);
-        //gameObject.transform.eulerAngles.y = 180;
-
         gameObject.transform.eulerAngles = new Vector3(
         gameObject.transform.eulerAngles.x,
         gameObject.transform.eulerAngles.y,
@@ -25,7 +19,6 @@ public class playcard_turn : UdonSharpBehaviour
         turned = !turned;
 
         memory_gamemaster.GetComponent<memory_game>().SendCustomEvent("cardCheck");
-
     }
 
     public void disable()

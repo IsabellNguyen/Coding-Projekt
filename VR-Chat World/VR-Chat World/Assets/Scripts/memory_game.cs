@@ -50,7 +50,6 @@ public class memory_game : UdonSharpBehaviour
                     Disable();
                     Debug.Log("time to disable");
                 }
-
             }
             else
             {
@@ -158,8 +157,6 @@ public class memory_game : UdonSharpBehaviour
             i++;
         }
 
-
-
         for (int index = cardArray.Length - 1; index >= 0; index--)
         {
             int randomIndex = UnityEngine.Random.Range(0, newPositions.Length);
@@ -180,7 +177,6 @@ public class memory_game : UdonSharpBehaviour
             );
             Debug.Log(randomIndex);
         }
-        //used = null;
         used = new bool[cardArray.Length];
     }
 }
