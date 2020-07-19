@@ -1,84 +1,160 @@
 fileFormatVersion: 2
-guid: c4cffbc91125def47b1aee668165cdbf
+guid: b50b7140b1ba47740800f02349bf68f1
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: Areca_palm_Cylinder.2601
-    100002: Carpet
-    100004: Curtain
-    100006: East_Wall
-    100008: Floor
-    100010: //RootNode
-    100012: North_Wall
-    100014: Pole
-    100016: South_Wall
-    100018: Table
-    100020: West_Wall
+    100002: Bean_Bag
+    100004: Carpet
+    100006: Curtain
+    100008: East_Wall
+    100010: Floor
+    100012: Mirror_Toggle_Button
+    100014: //RootNode
+    100016: North_Wall
+    100018: Pole
+    100020: Shuffle_Button
+    100022: South_Wall
+    100024: Table
+    100026: West_Wall
     400000: Areca_palm_Cylinder.2601
-    400002: Carpet
-    400004: Curtain
-    400006: East_Wall
-    400008: Floor
-    400010: //RootNode
-    400012: North_Wall
-    400014: Pole
-    400016: South_Wall
-    400018: Table
-    400020: West_Wall
-    2100000: Material.009
-    2100002: Material.008
-    2100004: metal
+    400002: Bean_Bag
+    400004: Carpet
+    400006: Curtain
+    400008: East_Wall
+    400010: Floor
+    400012: Mirror_Toggle_Button
+    400014: //RootNode
+    400016: North_Wall
+    400018: Pole
+    400020: Shuffle_Button
+    400022: South_Wall
+    400024: Table
+    400026: West_Wall
+    2100000: metal
+    2100002: curtain
+    2100004: pot
     2100006: Soil2
-    2100008: Material.006
+    2100008: plant
     2100010: Material.007
-    2100012: Material.002
-    2100014: Material.001
-    2100016: Material
-    2100018: Material.004
-    2100020: Material.005
-    2100022: Material.003
+    2100012: carpet
+    2100014: table
+    2100016: wall
+    2100018: floor
+    2100020: Fabric 001
+    2100022: shuffle
+    2100024: toggle
     2300000: Areca_palm_Cylinder.2601
-    2300002: Carpet
-    2300004: Curtain
-    2300006: East_Wall
-    2300008: Floor
-    2300010: North_Wall
-    2300012: Pole
-    2300014: South_Wall
-    2300016: Table
-    2300018: West_Wall
+    2300002: Bean_Bag
+    2300004: Carpet
+    2300006: Curtain
+    2300008: East_Wall
+    2300010: Floor
+    2300012: Mirror_Toggle_Button
+    2300014: North_Wall
+    2300016: Pole
+    2300018: Shuffle_Button
+    2300020: South_Wall
+    2300022: Table
+    2300024: West_Wall
     3300000: Areca_palm_Cylinder.2601
-    3300002: Carpet
-    3300004: Curtain
-    3300006: East_Wall
-    3300008: Floor
-    3300010: North_Wall
-    3300012: Pole
-    3300014: South_Wall
-    3300016: Table
-    3300018: West_Wall
+    3300002: Bean_Bag
+    3300004: Carpet
+    3300006: Curtain
+    3300008: East_Wall
+    3300010: Floor
+    3300012: Mirror_Toggle_Button
+    3300014: North_Wall
+    3300016: Pole
+    3300018: Shuffle_Button
+    3300020: South_Wall
+    3300022: Table
+    3300024: West_Wall
     4300000: Pole
     4300002: Curtain
     4300004: Areca_palm_Cylinder.2601
     4300006: Carpet
     4300008: Table
-    4300010: South_Wall
-    4300012: North_Wall
-    4300014: East_Wall
-    4300016: West_Wall
-    4300018: Floor
+    4300010: North_Wall
+    4300012: East_Wall
+    4300014: Floor
+    4300016: South_Wall
+    4300018: Bean_Bag
+    4300020: Shuffle_Button
+    4300022: Mirror_Toggle_Button
+    4300024: West_Wall
     2186277476908879412: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material
-    second: {fileID: 2100000, guid: 2a9ed2f43fc39024f93143147256c452, type: 2}
+      name: Fabric 001
+    second: {fileID: 2100000, guid: 894f2d7d43e440345bc3dbf0ff3851f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.007
+    second: {fileID: 2100000, guid: 1cc3a4374cfaf3843bb54b23eeb058a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Soil2
+    second: {fileID: 2100000, guid: d04ecfea6344f1d419b8ce3199cb2c7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: carpet
+    second: {fileID: 2100000, guid: 334e8647d508dd34887625f1dbe9e3cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: curtain
+    second: {fileID: 2100000, guid: 4876baa04cd4a594d973cbc4c0d0630a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floor
+    second: {fileID: 2100000, guid: 8af93a367d9587c4c908da45f386b04f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal
+    second: {fileID: 2100000, guid: 9285a9c3100288f4dae6a93db69f6bbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plant
+    second: {fileID: 2100000, guid: c785cba9695d5ee40b01c3c0e7bce477, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pot
+    second: {fileID: 2100000, guid: 63dd5563b26fc8b4d909c67fc52fc2e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shuffle
+    second: {fileID: 2100000, guid: e255a79bcdc00c547b6a69bcee6030ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: table
+    second: {fileID: 2100000, guid: c9afd1429c0bed24eaf2965a7c2d9340, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: toggle
+    second: {fileID: 2100000, guid: dfe11251ffca78c428300c57a95f21c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall
+    second: {fileID: 2100000, guid: cb41f8c06ac0b0c40b262e085654879f, type: 2}
   materials:
     importMaterials: 1
-    materialName: 0
+    materialName: 1
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

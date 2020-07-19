@@ -275,3 +275,5 @@ F:\maxid\Documents\GitHub\Coding-Projekt\VR-Chat World\VR-Chat World\obj\Debug\U
 F:\maxid\Documents\GitHub\Coding-Projekt\VR-Chat World\VR-Chat World\obj\Debug\UnityEditorTests.csproj.CopyComplete
 F:\maxid\Documents\GitHub\Coding-Projekt\VR-Chat World\VR-Chat World\obj\Debug\UnityEditorTests.dll
 F:\maxid\Documents\GitHub\Coding-Projekt\VR-Chat World\VR-Chat World\obj\Debug\UnityEditorTests.pdb
+F:\maxid\Documents\GitHub\Coding-Projekt\VR-Chat World\VR-Chat World\Temp\bin\Debug\Newtonsoft.Json.dll
+F:\maxid\Documents\GitHub\Coding-Projekt\VR-Chat World\VR-Chat World\Temp\bin\Debug\Newtonsoft.Json.xml

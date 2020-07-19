@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
   m_Name: VRCWorldSettings
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: 435da5f721aa96641a0c6ffad735c260,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: da7f75487464a0b4cae799a4fa7dce9b,
     type: 2}
   udonAssembly: ".data_start\r\n\r\n    .export jumpImpulse\r\n    .export walkSpeed\r\n
     \   .export runSpeed\r\n    \r\n    Boolean_0: %SystemBoolean, null\r\n    Object_0:
@@ -255,13 +255,13 @@ MonoBehaviour:
       we are playing this scene in the Unity Editor and not the VRChat client, LocalPlayer
       is null","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
   - type: 5
-    uid: cddf633d-d48d-4bda-954f-1d0dd8f691c2
+    uid: c6d2a20c-8bd7-414e-88e5-25bc88840515
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":10.0,"y":130.0,"width":200.0,"height":150.0}}'
   - type: 4
-    uid: 46d8d053-df09-42aa-b83b-0d8d8bbabc43
+    uid: 842f8e41-cb5a-4117-8630-a62ebddb32d5
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":10.0,"y":20.0,"width":0.0,"height":0.0}}'
   viewTransform:
-    position: {x: 821.08167, y: 300.40567}
-    scale: 0.56048167
+    position: {x: 778.6249, y: 84.63571}
+    scale: 1
   version: 1.0.0
   showAssembly: 1

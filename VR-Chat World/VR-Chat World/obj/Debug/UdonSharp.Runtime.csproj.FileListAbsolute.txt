@@ -270,3 +270,5 @@ F:\maxid\Documents\GitHub\Coding-Projekt\VR-Chat World\VR-Chat World\obj\Debug\U
 F:\maxid\Documents\GitHub\Coding-Projekt\VR-Chat World\VR-Chat World\obj\Debug\UdonSharp.Runtime.csproj.CopyComplete
 F:\maxid\Documents\GitHub\Coding-Projekt\VR-Chat World\VR-Chat World\obj\Debug\UdonSharp.Runtime.dll
 F:\maxid\Documents\GitHub\Coding-Projekt\VR-Chat World\VR-Chat World\obj\Debug\UdonSharp.Runtime.pdb
+F:\maxid\Documents\GitHub\Coding-Projekt\VR-Chat World\VR-Chat World\Temp\bin\Debug\Newtonsoft.Json.dll
+F:\maxid\Documents\GitHub\Coding-Projekt\VR-Chat World\VR-Chat World\Temp\bin\Debug\Newtonsoft.Json.xml

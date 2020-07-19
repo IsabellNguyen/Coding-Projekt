@@ -1,0 +1,2 @@
+F:\maxid\Documents\GitHub\Coding-Projekt\VR-Chat World\VR-Chat World\obj\Debug\YoutubePlayer.csprojAssemblyReference.cache
+F:\maxid\Documents\GitHub\Coding-Projekt\VR-Chat World\VR-Chat World\obj\Debug\YoutubePlayer.csproj.CoreCompileInputs.cache

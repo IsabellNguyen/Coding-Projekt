@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
   m_Name: ToggleSync
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: e9e8306bbbc202247a414d8372aa8b9e,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: aac7f7d5c76b38f409ee6622f07e1963,
     type: 2}
   udonAssembly: ".data_start\r\n\r\n    .export uiToggle\r\n    .sync toggleValue,
     none\r\n    \r\n    instance_0: %UnityEngineUIToggle, null\r\n    value_0: %SystemBoolean,
@@ -160,4 +160,8 @@ MonoBehaviour:
     jsonData: '{"uid":"9567e148-41d4-4e53-842d-76a9eee692b5","layout":{"serializedVersion":"2","x":-822.25,"y":-273.25,"width":336.0,"height":104.0},"title":"This
       event can have any name we want as long as we make it the same on the UI item
       that triggers it.","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
+  viewTransform:
+    position: {x: 0, y: 0}
+    scale: 1
+  version: 1.0.0
   showAssembly: 0

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
   m_Name: ButtonSyncMaster
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: 7d229a687abaff449b80293753402498,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 52378c2ac8f980f4e98d3d773f378acf,
     type: 2}
   udonAssembly: ".data_start\r\n\r\n    .export uiText\r\n    .export clickCount\r\n
     \   .sync clickCount, none\r\n    \r\n    Boolean_0: %SystemBoolean, null\r\n
@@ -225,4 +225,8 @@ MonoBehaviour:
     uid: 6d8100ed-ed44-4f98-9bc5-2276e764a4b9
     jsonData: '{"uid":"6d8100ed-ed44-4f98-9bc5-2276e764a4b9","layout":{"serializedVersion":"2","x":-96.1375732421875,"y":58.6796875,"width":195.0,"height":113.0},"title":"This
       event runs on everyone EXCEPT the Owner.","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
+  viewTransform:
+    position: {x: 0, y: 0}
+    scale: 1
+  version: 1.0.0
   showAssembly: 1

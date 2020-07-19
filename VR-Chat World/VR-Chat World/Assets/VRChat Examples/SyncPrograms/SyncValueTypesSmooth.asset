@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
   m_Name: SyncValueTypesSmooth
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 0}
+  serializedUdonProgramAsset: {fileID: 11400000, guid: a4547231b109b7e4aa847037c79c38a4,
+    type: 2}
   udonAssembly: ".data_start\r\n\r\n    .export uiText\r\n    .sync boolValue, smooth\r\n
     \   .sync intValue, smooth\r\n    .sync floatValue, smooth\r\n    .sync stringValue,
     smooth\r\n    .sync colorValue, smooth\r\n    .sync vector3Value, smooth\r\n    .sync
@@ -855,4 +856,8 @@ MonoBehaviour:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|9ac1b6df-3a90-47ab-b4d5-8ed39c123b0c
   graphElementData: []
+  viewTransform:
+    position: {x: 0, y: 0}
+    scale: 1
+  version: 1.0.0
   showAssembly: 0

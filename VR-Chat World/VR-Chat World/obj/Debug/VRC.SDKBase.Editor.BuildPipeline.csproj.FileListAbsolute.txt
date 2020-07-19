@@ -270,3 +270,5 @@ F:\maxid\Documents\GitHub\Coding-Projekt\VR-Chat World\VR-Chat World\obj\Debug\V
 F:\maxid\Documents\GitHub\Coding-Projekt\VR-Chat World\VR-Chat World\obj\Debug\VRC.SDKBase.Editor.BuildPipeline.csproj.CopyComplete
 F:\maxid\Documents\GitHub\Coding-Projekt\VR-Chat World\VR-Chat World\obj\Debug\VRC.SDKBase.Editor.BuildPipeline.dll
 F:\maxid\Documents\GitHub\Coding-Projekt\VR-Chat World\VR-Chat World\obj\Debug\VRC.SDKBase.Editor.BuildPipeline.pdb
+F:\maxid\Documents\GitHub\Coding-Projekt\VR-Chat World\VR-Chat World\Temp\bin\Debug\Newtonsoft.Json.dll
+F:\maxid\Documents\GitHub\Coding-Projekt\VR-Chat World\VR-Chat World\Temp\bin\Debug\Newtonsoft.Json.xml

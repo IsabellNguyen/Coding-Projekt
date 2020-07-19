@@ -9,14 +9,10 @@ using System.Collections.Generic;
 
 public class Button_toggle : UdonSharpBehaviour
 {
-    public GameObject test;
+    public GameObject mirror;
     
     void Interact()
     {
-       
-        //test.SetActive(!test.activeSelf);
-
-        test.SetActive(!test.activeInHierarchy);
-
+        mirror.SetActive(!mirror.activeInHierarchy);
     }
 }
